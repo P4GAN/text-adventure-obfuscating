@@ -13,7 +13,7 @@ while a!=f:
     if a=="look":p(l)
     elif a==f:p(d);r=1
   if r>0:
-    a=input(c+f+", {b}, look\n> ")
+    a=input(c+f+f", {b}, look\n> ")
     if a==b:p(l);r=0
     elif a=="look":p(d)
 p("You have escaped the”+t,”You win!")
